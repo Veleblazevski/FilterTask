@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<h1>Filter task</h1>
+
+<section class="contact-form">
+  <form>
+  <label for="rating">Order by rating:</label>
+<select id="ratings" name="rating">
+  <option value="high">Highest first</option>
+  <option value="low">Lower first</option>
+</select>
+
+<label for="minRating">Miminum rating</label>
+<select id="minRatings" name="minRating">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select>
+
+<label for="date">Order by date:</label>
+<select id="dates" name="dates">
+  <option value="new">Newest first</option>
+  <option value="old">Oldest first</option>
+</select>
+
+<label for="text">Prioritez by text:</label>
+<select id="texts" name="text">
+  <option value="yes">Yes</option>
+  <option value="no">No</option>
+</select>
+  
+    
+    <button type="submit" id="form">Filter</button>
+  </form>
+</section>
+
+<table id="table">
+
+</table>
+
+<script type="text/javascript" src="reviews.json"></script>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
